@@ -1,0 +1,151 @@
+html {
+    background-color: white;
+}
+
+body {
+
+    &#page-login {
+
+    }
+
+    &#page-radio {
+        
+    }
+
+}
+
+.page-wrapper {
+
+    &#page-wrapper-login {
+
+    }
+
+    &#page-wrapper-radio {
+        
+    }
+
+}
+
+.ctrl {
+    position: relative;
+    margin: 5px;
+
+    &#ctrl-banner {
+        
+        img {
+            display: inline-block;
+            height: 48px;
+        }
+
+        h1 {
+            position: relative;
+            display: inline-block;
+            margin: 0 10px;
+            bottom: -8px;
+        }
+
+    }
+
+    &#ctrl-currently-playing {
+        padding: 2px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    &#ctrl-radio-controls {
+        position: relative;
+        margin: 10px;
+
+        #ctrl-radio-controls-volume {
+            position: relative;
+            display: inline-block;
+            padding: 0 15px;
+
+            input[type="range"] {
+                position: relative;
+                top: 5px;
+                width: 150px;
+            }
+        }
+
+    }
+
+    &#ctrl-stationlist {
+
+        ul#station-list {
+            list-style: none;
+            padding-left: 0;
+
+            li {
+                text-align: center;
+                margin: 5px;
+
+                a {
+                    display: block;
+                    background-color: lightslategrey;
+                    padding: 5px;
+                    color: white;
+                    border-radius: 5px;
+                    text-decoration: none;
+
+                    &:hover {
+                        background-color: gray;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    &#ctrl-debug-log {
+
+        #ctrl-debug-log-wrapper {
+            max-height: 200px;
+            overflow-y: scroll;
+        }
+
+    }
+
+    &#ctrl-debug-status {
+
+        #ctrl-debug-status-wrapper {
+            max-height: 200px;
+            overflow-y: scroll;
+        }
+
+    }
+
+}
+
+.ctrl-group {
+    position: relative;
+    display: block;
+    padding: 8px;
+    margin: 40px 10px;
+
+    &.ctrl-group-bordered {
+        border: 1px solid #000000;
+        border-radius: 15px;
+    }
+
+    &#ctrl-group-top {
+        margin-bottom: -20px;
+    }
+
+    &#ctrl-group-main {
+
+    }
+
+    &#ctrl-group-stations {
+        padding-top: 15px;
+
+    }
+
+    &#ctrl-group-debug {
+
+    }
+
+}
